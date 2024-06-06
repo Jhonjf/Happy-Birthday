@@ -1,11 +1,16 @@
 @use 'hero';
+@use 'components/infos_bar';
+@use 'components/buttons';
+@use 'event';
+@use 'variables';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
-    color: #fff;
+    color: variables.$textColor;
+    list-style-type: none;
 }
 
 .container {
@@ -14,7 +19,15 @@
     margin: 0 auto;
 
     @media (max-width: 640px) {
-        max-width: 80%;
+        display: block;
+
+        &__infos {
+            display: block;
+
+            &__item {
+                margin-bottom: 24px;
+            }
+        }
     }
 
     @media (max-width:1024px) {
