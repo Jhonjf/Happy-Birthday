@@ -1,5 +1,5 @@
-@use './infos_bar';
-@use 'buttons';
+@use './_components/buttons';
+@use './_components/info_bar';
 @use 'hero';
 @use 'event';
 @use 'variables';
