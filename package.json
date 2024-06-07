@@ -2,10 +2,11 @@
   "name": "happy_birthday",
   "version": "1.0.0",
   "scripts": {
-    "parcel build": "parcel build src/index.html",
+    "build": "parcel build src/index.html",
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js --no-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
